@@ -12,4 +12,4 @@ This code was modified from its original version (author Matthias Varnholt)
 
 ## Fundamentos
 
-Marco teórico e implementación en el archivo "tiny_SPH.pdf"
+Marco teórico e implementación en el archivo "tiny_SPH_guide.pdf"
