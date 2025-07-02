@@ -6,7 +6,7 @@ This code was modified from its original version (author Matthias Varnholt)
 
 ## Requisitos:
 
-`apt install qtbase5-dev qtbase5-dev-tools`
+La visualización en tiempo real se basa en dependecias con Qt5. Checkear `apt install qtbase5-dev qtbase5-dev-tools`.
 
 ![animation](SPH_example.gif)
 
