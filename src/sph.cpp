@@ -733,7 +733,7 @@ void SPH::computeAcceleration(Particle* p, Particle** neighbors, float* neighbor
       centerPart = centerPart * centerPart;
       pressureGradientContribution *= centerPart;
 
-      float factor = mj * piDivRhoi2 * (pj * rhojInv2);
+      float factor = mj * (piDivRhoi2 + (pj * rhojInv2));
       pressureGradientContribution *= factor;
 
       // Add individual pressure gradient contribution to total pressure gradient
